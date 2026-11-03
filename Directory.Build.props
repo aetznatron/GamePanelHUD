@@ -1,0 +1,24 @@
+<Project>
+
+  <!--
+    Path to the SPT / EFT installation the HUD modules are compiled against.
+    Override per build, e.g.
+
+      msbuild GamePanelHUD.sln /p:SPTGamePath="D:\Games\SPT 4.1.6 essential"
+  -->
+  <PropertyGroup>
+    <SPTGamePath Condition="'$(SPTGamePath)' == ''">D:\Games\SPT 4.1.6 essential</SPTGamePath>
+    <SptManagedDir>$(SPTGamePath)\EscapeFromTarkov_Data\Managed</SptManagedDir>
+    <SptBepInExCoreDir>$(SPTGamePath)\BepInEx\core</SptBepInExCoreDir>
+  </PropertyGroup>
+
+  <!--
+    GamePanelHUD depends on KmyTarkovApi. The author's layout is a sibling
+    checkout whose Build project copies the API assemblies into
+    Build\bin\Current. Point this at that folder (absolute or relative).
+  -->
+  <PropertyGroup>
+    <KmyTarkovApiBuildDir Condition="'$(KmyTarkovApiBuildDir)' == ''">..\..\KmyTarkovApi\Build\bin\Current</KmyTarkovApiBuildDir>
+  </PropertyGroup>
+
+</Project>

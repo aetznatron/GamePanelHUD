@@ -52,52 +52,52 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.9.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>$(SptBepInExCoreDir)\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(SptManagedDir)\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx, Version=5.4.19.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath>$(SptBepInExCoreDir)\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="KmyTarkovApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=13a2b05844723184, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\KmyTarkovApi\Build\bin\Current\KmyTarkovApi.dll</HintPath>
+      <HintPath>$(KmyTarkovApiBuildDir)\KmyTarkovApi.dll</HintPath>
     </Reference>
     <Reference Include="KmyTarkovReflection, Version=1.4.0.0, Culture=neutral, PublicKeyToken=13a2b05844723184, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\KmyTarkovApi\Build\bin\Current\KmyTarkovReflection.dll</HintPath>
+      <HintPath>$(KmyTarkovApiBuildDir)\KmyTarkovReflection.dll</HintPath>
     </Reference>
     <Reference Include="KmyTarkovUtils">
-      <HintPath>..\..\KmyTarkovApi\Build\bin\Current\KmyTarkovUtils.dll</HintPath>
+      <HintPath>$(KmyTarkovApiBuildDir)\KmyTarkovUtils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(SptManagedDir)\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(SptManagedDir)\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>$(SptManagedDir)\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(SptManagedDir)\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(SptManagedDir)\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>R:\Battlestate Games\Client.0.16.1.3.35392\EscapeFromTarkov_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(SptManagedDir)\UnityEngine.UIModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
